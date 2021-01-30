@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>{{title}}</title>
+        <link rel="icon" href="/img/calendar-img.png">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+        <div class='main-content'>
+            {{>header}}
+            <p>Weather, wherever you are.</p>
+
+            <form>
+                <input placeholder="Location">
+                <button>Find My Weather</button>
+            </form>
+            <p id='message-1'></p>
+            <p id="message-2"></p>
+
+
+
+
+        </div>
+        {{>footer}}
+        <script src="/js/app.js"></script>
+    </body>
+
+</html>
